@@ -7,6 +7,7 @@
 :set softtabstop=4
 :set mouse=a
 call plug#begin()
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
